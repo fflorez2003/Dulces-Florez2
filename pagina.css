@@ -1,0 +1,213 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: lato;
+}
+    
+h1{
+font:bold;
+text-align: center;
+font-size: 40px;
+font-size: 30px;
+font-family: Verdana, Arial, sans-serif;
+font-family: 'Courier New', Courier, monospace;
+margin-bottom: 5px;
+}
+
+    
+h2{
+text-align: left;
+font: bold;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif
+font: bold 15px Verdana, Arial, sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+    body{
+        text-align: center;
+    }
+    
+    #cuerpo{
+        text-align: left;
+        }
+
+    #encabezado{
+        text-align: center;
+        }
+
+    img[Attributes Style] {
+        width: 600px;
+        aspect-ratio: auto 600 / 200;
+        height: 200px;
+    }
+
+    #menu{
+        background: #a20000;
+        padding: 5px 250px;
+        background:-webkit-linear-gradient(top,#ffffff,#7acae0);
+        background:-moz-linear-gradient (top,#ffffff, #00bc1c);
+        }
+        
+        #seccion{
+        float: right;
+        width: 660px;
+        margin: 20px;
+        }
+        
+        #seccion2{
+        float:left;
+        width:250px;
+        margin:5px;
+        text-align:center;
+        background: #6ba8f8;
+        color: #ff0000;
+        transform: rotate(-5deg);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: Verdana, Arial, sans-serif;
+        font-size:14px;
+        background: -webkit-linear-gradient(top,#6ba8f8,#e5fcc7);
+        }
+        
+        #seccion3{
+        float:left;
+        height: auto;
+        width:250px;
+        margin:5px;
+        margin-top:25px;
+        margin-bottom:25px;
+        text-align:center;
+        color:#ff0000;
+        background: #6ba8f8;
+        transform: rotate(5deg);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: Verdana, Arial, sans-serif;
+        font-size:14px;
+        background: -webkit-linear-gradient(top,#3181ea,#e5fcc7);
+        }
+        
+       
+        
+        #pie{
+        clear:both;
+        text-align:center;
+        padding:20px;
+        border-top:5px solid #7acae0;
+        }
+        
+        
+        
+        article footer{
+        text-align:right;
+        }
+        
+        #menu li{
+        display: inline-block;
+        list-style:none;
+        padding:5px;
+        font: bold 14px verdana, sans-serif;
+        }
+        
+        table{
+        font-family: Verdana, Arial, sans-serif;
+        color: #ffffff;
+        font-size: 12px;
+        padding-bottom: 30px;
+        }
+    
+    
+    body{
+        font-family: arial, helvetica;
+        background: #e8e8e8;
+        min-height: 100vh;
+        background-color: #f1cdd7;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .menu{
+        list-style: none;
+        padding: 0;
+        background: #092327;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+    }
+    
+    .menu li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;
+    }
+    
+    .menu li{
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .menu li a:hover{
+        background: #ef8354;
+    }
+    
+
+    .slider-frame {
+        width: 500px;
+        height: auto;
+        margin:50px auto 0;
+        overflow: hidden;
+    }
+    
+    .slider-frame ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+        
+        animation: slide 20s infinite alternate ease-in-out;
+    }
+    
+    .slider-frame li {
+        width: 100%;
+        list-style: none;
+    }
+    
+    .slider-frame img {
+        width: 100%;
+    }
+    
+    @keyframes slide {
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+        
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+        
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+        
+        75% {margin-left: -300%;}
+        100% {margin-left: -300%;}
+    }
+
+    #volver_arriba {
+        position: fixed;
+        top: 100px;
+        display: block;
+        padding: 6px;
+        background-color: #333;
+        width: 80px;
+        right: 0;
+        background-image: url(../images/formato/arrow-up.png);
+        background-repeat: no-repeat;
+        background-position: -10px -2px;
+        padding-left: 20px;
+        border-left: 20px solid #333;
+    }
+
+    
+    
+    

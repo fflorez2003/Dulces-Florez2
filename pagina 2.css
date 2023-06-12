@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: lato;
+}
+    
+h1{
+font:bold;
+text-align: center;
+font-size: 30px;
+font-family: Verdana, Arial, sans-serif;
+font-family: 'Courier New', Courier, monospace;
+margin-bottom: 0px;
+}
+
+    
+h2{
+text-align: left;
+font: bold;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif
+font: bold 15px Verdana, Arial, sans-serif;
+}
+article{
+    display: block;
+}
+
+#volver_arriba {
+    position: fixed;
+    top: 100px;
+    display: block;
+    padding: 6px;
+    background-color: #333;
+    width: 80px;
+    right: 0;
+    background-image: url(../images/formato/arrow-up.png);
+    background-repeat: no-repeat;
+    background-position: -10px -2px;
+    padding-left: 20px;
+    border-left: 20px solid #333;
+}
+
+.lateral{
+    float: left;
+    text-decoration: none;
+}
+body{
+    text-align: center;
+}
+
+
+.caja1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    padding-bottom: 5px; 
+    padding-top: 5px;
+    float:left;
+    width: 1px;
+    text-decoration: none;
+}
+.contenido{
+    font-weight: bolder;
+}
+
+body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+    min-height: 100vh;
+    background: #f1cdd7;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu{
+	list-style: none;
+	padding: 0px;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+
